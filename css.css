@@ -194,9 +194,11 @@
 .icon_location:before { content: '\f031'; } /* '' */
 
 
+.icon-arrow1x{position: relative}
 .icon-arrow1x:before {
     content: "\e900";
     color: #7499ff;
+    transform: rotate(90deg)!important;
 }
 
 .icon-dropdown-icon:before {
@@ -249,7 +251,7 @@
 
 .icon-Icon-gear1x:before {
     content: "\e90c";
-    color: #c4bcff;
+    color: #7873a6;
 }
 
 .icon-Icon-like1x:before {
@@ -262,7 +264,7 @@
 
 .icon-Icon-lock:before {
     content: "\e90f";
-    color: #c4bcff;
+    color: #7873a6;
 }
 
 .icon-Icon-menu:before {
@@ -435,7 +437,7 @@ justify-content: flex-end;
     justify-content: space-between;
 }
 .head-content {
-    width: 85%;
+    width: 86%;
     display: flex;
 }
 
@@ -495,7 +497,7 @@ input[type=search] {
 
 input[type=search] {
     background: rgba(46, 44, 76, 0.8) no-repeat 9px center;
-    border: solid 1px #212338;
+    border: solid 1px #7499ff;
     padding: 0px 10px 0px 32px;
     width: 133px;
     height: 68px;
@@ -534,12 +536,23 @@ input::-webkit-input-placeholder {
 
 .center-head .head-ul {
     display: flex;
-    padding-left: 26px;
-    border-left: 1px solid #c8c8cf;
-    height: 20px;
-    margin-left: 32px;
+    padding-left: 10px;
+    border-left: 1px solid #5c5877;
+    height: 17px;
+    margin-left: 22px;
+    align-items: center;
 }
-
+.animated .left-menu-items .list-list .img-icon{
+    width: 18px!important;
+    height: 17px!important;
+}
+.center-head .head-ul li a img{
+    width: 18px!important;
+    height: 17px!important;
+}
+.center-head a{
+    display: flex;
+}
 .center-head .head-ul li {
     list-style-type: none
 }
@@ -573,11 +586,11 @@ input::-webkit-input-placeholder {
     display: flex;
     align-items: center;
     background: #363159;
-    border-right: 4px solid #202236;
+    border-right: 2px solid #202236;
     padding: 0 50px 0 56px;
     justify-content: space-between;
     left: 0;
-    width: 15% !important;
+    width: 14% !important;
     border-radius: 20px 0 0 0;
 }
 .center-box .small-box .under i{
@@ -757,7 +770,14 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
 }
-
+.icon-arrow1x:before {
+    right: -13px;
+    position: absolute;
+    content: "\e900";
+    color: #7499ff;
+    transform: rotate(-90deg)!important;
+    top: 0px;
+}
 .radios {
     display: flex;
     align-items: center;
@@ -972,7 +992,9 @@ canvas {
     font-size: 16pt;
     font-family: 'Roboto Mono';
 }
-
+#fruit1{
+    margin:  0 3px 0 0;
+}
 .animated .left-dots {
     margin-top: 20px;
     padding-left: 0;
@@ -1034,76 +1056,79 @@ canvas {
     width: 100%;
 }
 
-.radio__input {
-    opacity: 0;
-    margin-right: 19px;
-}
-
-.radio__input:checked + .radio__label:before {
-    background: #769bfe;
-    box-shadow: inset 0 0 0 0.15rem rgba(255,255,255,0.9);
-}
-
-.radio__label {
-    margin-left: 0.65rem;
-    font-size: 1rem;
-    color: #7974a3;;
-    width: 31%;
-margin-bottom: 8px;
-    margin-top: 8px;
-}
-
-.radio__label:before {
-    content: '';
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0.15rem;
-    border: 0.01rem solid var(--primary-color);
-    transition: all var(--transition-duration) ease-in-out;
-}
+/*checkradio*/
 
 
-input[type=checkbox] + label {
+
+.check-dots{
+    color: #AAAAAA;
     display: block;
-    margin: 0.2em;
+    position: relative;
+    float: left;
+}
+
+.check-dots input[type=radio]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.check-dots label{
+    display: block;
+    position: relative;
+    font-weight: 300;
+    font-size: 10px;
+    padding: 0px 0px 0px 25px;
+    margin: 10px auto;
+    z-index: 9;
     cursor: pointer;
-    padding: 0.2em;
-    margin-right: 40px;
+    -webkit-transition: all 0.25s linear;
 }
 
-input[type=checkbox] {
-    display: none;
+
+.check-dots .check{
+    display: block;
+    position: absolute;
+    border: 1px solid #23253a;
+    border-radius: 100%;
+    height: 12px;
+    width: 12px;
+    top: 10px;
+    left: 0px;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
 }
 
-input[type=checkbox] + label:before {
-    content: "\2714";
-border: 1px solid #2b2947;
-    border-radius: 0.2em;
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    padding-left: 0.2em;
-    padding-bottom: 0.3em;
-    margin-right: 5px;
-    vertical-align: bottom;
-    color: transparent;
-    transition: .2s;
+
+
+.check-dots .check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 3px;
+    width: 3px;
+    top: 5px;
+    left: 5px;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
 }
 
-input[type=checkbox] + label:active:before {
-    transform: scale(0);
+input[type=radio]:checked ~ .check {
+    border: 1px solid #769bfe;
 }
 
-input[type=checkbox]:checked + label:before {
-    background-color: MediumSeaGreen;
-    border-color: MediumSeaGreen;
-    color: #fff;
+input[type=radio]:checked ~ .check::before{
+    background: #769bfe;
 }
+
+
+
+
+
+
+
 
 .center-box i {
     font-size: 20pt;
@@ -1118,7 +1143,7 @@ input[type=checkbox]:checked + label:before {
     background: none;
     width: 200px;
     text-align: left;
-    border: 1px solid #575372;
+    border: 1px solid rgba(45, 43, 74, 0.8);
     border-radius: 50px;
     height: 70px;
     margin-right: 32px;
@@ -1137,7 +1162,7 @@ input[type=checkbox]:checked + label:before {
 .dropdrop > a, .dropdrop > span {
     font-family: 'Roboto Mono';
     font-size: 20px;
-    padding: 15px 25px 15px 15px;
+    padding: 15px 20px 15px 15px;
     display: inline-block;
     color: #9992cc;
     text-decoration: none;
@@ -1197,7 +1222,9 @@ input[type=checkbox]:checked + label:before {
     display: none;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .175);
-    width: 220px;
+    width: 180px;
+    font-size: 16px;
+    z-index: 99999;
 }
 
 .dropdrop input[type=checkbox]:checked + ul {
@@ -1288,6 +1315,8 @@ position: absolute;
 }
 .forms .likes a{
     color:  #9a98ab;
+    display: flex;
+    align-items: center;
 }
 .center-box .block a{
     color: #7499ff;

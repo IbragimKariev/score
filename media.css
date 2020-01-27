@@ -1,5 +1,55 @@
 
 @media (max-width: 2880px){
+    .center-box .small-box .under {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 17px;
+        padding: 0 34px 14px 22px;
+    }
+    .icon-arrow1x:before {
+        right: -25px;}
+    .check-dots {
+        min-width: 300px;}
+    .check-dots label{
+        display: block;
+        position: relative;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0px 0px 0px 50px;
+        margin: 10px auto;
+        z-index: 9;
+        cursor: pointer;
+        -webkit-transition: all 0.25s linear;
+    }
+    .check-dots .check{
+        display: block;
+        position: absolute;
+        border: 1px solid #23253a;
+        border-radius: 100%;
+        height: 25px;
+        width: 25px;
+        top: 7px;
+        left: 0px;
+        z-index: 5;
+        transition: border .25s linear;
+        -webkit-transition: border .25s linear;
+    }
+
+
+
+    .check-dots .check::before {
+        display: block;
+        position: absolute;
+        content: '';
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        top: 7px;
+        left: 7px;
+        margin: auto;
+        transition: background 0.25s linear;
+        -webkit-transition: background 0.25s linear;
+    }
     input[type=search]{
         width: 45%;
         padding: 0 0 0 40px ;
@@ -9,10 +59,10 @@
         justify-content: space-around;
     }
     .animated{
-        width: 15%;
+        width: 14%;
     }
     .main{
-        width: 85%;
+        width: 86%;
     }
     .head-box{
         display: flex;
@@ -39,7 +89,7 @@
     }
     .forms .telegr {
         position: absolute;
-        right: 10px;
+        right: 22px;
     }
     .icon_search{font-size: 16px;
         position: absolute;
@@ -59,7 +109,7 @@
         font-size: 16pt;
     }
     .doc-info{
-        padding-left: 10px;
+        padding-left: 22px;
     }
     body{position: relative;
         padding: 132px;
@@ -69,24 +119,23 @@
         height: 116px;
     }
     .radios{
-        padding-left: 20px;
+        padding-left: 22px;
     }
 
     .animated{
         left: 132px;
     }
     .slidebar-logo{
-        width: 15% !important;
         padding: 0;
         height: 100%;
         text-align: center;
         justify-content: space-around;
     }
     .animated{
-        width: 15%;
+        width: 14%;
     }
     .main{
-        width: 85%;
+        width: 86%;
     }
     .head-box{
         display: flex;
@@ -123,6 +172,9 @@
     .right-head .head-ul {
         border-left: 1px solid #5c5877;
         height: 25px;
+        margin-left: 15%;
+
+        margin-right: 7%;
     }
     .right-head .head-ul li a{
         margin-right: 5px;
@@ -132,7 +184,7 @@
 
     .right-head .head-ul {
         display: flex;
-        padding-left: 20px;}
+        padding-left: 22px;}
     .center-head a i {
         margin-left: 2px;
     }
@@ -147,16 +199,14 @@
         font-size: 25pt;
         letter-spacing: -3px;
     }
-    .right-head .head-ul{
-        margin: 0;
-    }
+
 
 
     .animated{
-        width: 15%;
+        width: 14%;
     }
     .main{
-        width: 85%;
+        width: 86%;
     }
     .center-box{
         padding: 0px 50px 50px 50px;
@@ -193,6 +243,8 @@
         width: 55px;
         height: 55px;
     }
+    .doc-info {
+        padding-right: 5px;}
     .list-box .oval-img{
         width: 55px;
         height: 64px;
@@ -202,8 +254,10 @@
         display: flex;
         justify-content: space-between;
         margin-top: 17px;
-        padding: 0 10px 14px 20px;
+        padding: 0 34px 14px 22px;
     }
+    .icon-arrow1x:before {
+        right: -25px;}
     .list-box .list-box-content:last-child{
         margin-bottom: 0;
     }
@@ -251,7 +305,7 @@
     .mini-box .forms {
         display: flex;
         border-radius: 0 0 10px 10px;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 22px 10px 22px;
         align-items: center;
     }
     .center-box .mini-box .forms img{
@@ -263,17 +317,18 @@
     }
     .center-box .margin-top-28{
         margin-top: 15px;
+        padding-top: 22px;
     }
     .center-box .block {
         display: flex;
         align-items: center;
-        padding-left: 20px;
+        padding-left: 22px;
     }
     input[type=checkbox] + label{
         margin: 0;
     }
     .icons{
-        right: 10px;
+        right: 22px;
     }
     .mini-box .numbers {
         margin-right: 15px;
@@ -311,15 +366,16 @@
     }
     .forms .telegr{
         position: absolute;
-        right: 10px;
+        right: 22px;
     }
     .forms{
         position: relative;
     }
-
+    .doc-info {
+        padding-right: 5px;}
 
     .mini-box .forms-radio{
-        padding-left: 10px;
+        padding-left: 22px;
     }
     .mini-box .vote{
         width: 16%;
@@ -370,6 +426,51 @@
         width: 212px;
         height: 160px;
     }
+    .check-dots label{
+        font-size: 16px;
+    }
+    .check-dots {
+        min-width: 300px;}
+    .check-dots label{
+        display: block;
+        position: relative;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0px 0px 0px 50px;
+        margin: 10px auto;
+        z-index: 9;
+        cursor: pointer;
+        -webkit-transition: all 0.25s linear;
+    }
+    .check-dots .check{
+        display: block;
+        position: absolute;
+        border: 1px solid #23253a;
+        border-radius: 100%;
+        height: 25px;
+        width: 25px;
+        top: 7px;
+        left: 0px;
+        z-index: 5;
+        transition: border .25s linear;
+        -webkit-transition: border .25s linear;
+    }
+
+
+
+    .check-dots .check::before {
+        display: block;
+        position: absolute;
+        content: '';
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        top: 7px;
+        left: 7px;
+        margin: auto;
+        transition: background 0.25s linear;
+        -webkit-transition: background 0.25s linear;
+    }
 }
 @media (max-width: 1920px){
     .animated .left-dots i {
@@ -378,7 +479,7 @@
         padding: 82px;
     }
     .doc-info{
-        padding-left: 10px;
+        padding-left: 22px;
     }
     .center-box i{
         font-size: 13pt;
@@ -390,7 +491,6 @@ height: 74px;
         left: 82px;
     }
     .slidebar-logo{
-        width: 15% !important;
         padding: 0;
         height: 100%;
         text-align: center;
@@ -447,6 +547,8 @@ height: 74px;
     .right-head .head-ul {
         border-left: 1px solid #5c5877;
         height: 25px;
+        margin-right: 7%;
+        margin-left: 15%;
    }
     .right-head .head-ul li a{
         margin-right: 5px;
@@ -460,9 +562,12 @@ height: 74px;
     }
     .right-head .head-ul {
         display: flex;
-        padding-left: 20px;}
+        padding-left: 10px;
+        margin-left: 15%;
+
+        margin-right: 7%}
     .center-head a i {
-        margin-left: 2px;
+        margin-left: 9px;
         font-size: 14px;
     }
     .under-left-menu{
@@ -482,9 +587,7 @@ height: 74px;
     font-size: 25pt;
         letter-spacing: -3px;
     }
-    .right-head .head-ul{
-        margin: 0;
-    }
+
 
     .animated .sub-menu a {
     font-size: 10px;
@@ -493,10 +596,10 @@ height: 74px;
         font-size: 10px;
     }
     .animated{
-        width: 15%;
+        width: 14%;
     }
     .main{
-        width: 85%;
+        width: 86%;
     }
     .center-box{
         padding: 0px 50px 50px 50px;
@@ -553,7 +656,7 @@ height: 74px;
         display: flex;
         justify-content: space-between;
         margin-top: 17px;
-        padding: 0 10px 14px 10px;
+        padding: 0 22px 14px 22px;
     }
     .list-box .list-box-content:last-child{
         margin-bottom: 0;
@@ -633,7 +736,7 @@ height: 74px;
     .mini-box .forms {
         display: flex;
         border-radius: 0 0 10px 10px;
-        padding: 5px 10px 5px 10px;
+        padding: 5px 22px 5px 22px;
         align-items: center;
     }
     .center-box .mini-box .forms img{
@@ -650,13 +753,13 @@ height: 74px;
         display: flex;
         align-items: center;
         padding-bottom: 15px;
-        padding-left: 10px;
+        padding-left: 22px;
     }
     input[type=checkbox] + label{
         margin: 0;
     }
     .icons{
-        right: 10px;
+        right: 22px;
     }
     .mini-box .numbers {
     margin-right: 15px;
@@ -695,18 +798,18 @@ height: 74px;
     }
     .forms .telegr{
        position: absolute;
-        right: 10px;
+        right: 22px;
     }
     .forms{
         position: relative;
     }
     .forms .likes i {
-        font-size: 11px;}
+        font-size: 13px;}
     .radios{
-        display: flex; align-items: center; padding-right: 10px;padding-left: 10px;
+        display: flex; align-items: center; padding-right: 22px;padding-left: 22px;
     }
     .mini-box .forms-radio{
-        padding-left: 10px;
+        padding-left: 22px;
     }
     .mini-box .vote{
         width: 16%;
@@ -741,7 +844,7 @@ height: 74px;
     }
 
     .center-box .mini-box{
-        padding-top: 15px;
+        padding-top: 22px;
 
     }
     .radio__input {
@@ -757,11 +860,12 @@ height: 74px;
     .container-progress{
         width: 237px;
     }
+
     .radio-group{
         margin-top: 15px;
     }
     .mini-box .forms-radio{
-        padding: 0px 20px 0px 10px;
+        padding: 0px 22px 0px 22px;
         margin-top: 13px;
         height: auto;
     }
@@ -778,4 +882,60 @@ height: 74px;
     .div-body{
         height: auto;
     }
-}
+    .center-box .mini-box .forms .img-icon{
+        width: 18px!important;
+        height: 17px!important;
+        margin-right: 5px!important;
+    }
+    .check-dots {
+        min-width: 168px;}
+    .check-dots label {
+    font-size: 10px;
+    }
+
+    .check-dots .check{
+        display: block;
+        position: absolute;
+        border: 1px solid #23253a;
+        border-radius: 100%;
+        height: 12px;
+        width: 12px;
+        top: 10px;
+        left: 0px;
+        z-index: 5;
+        transition: border .25s linear;
+        -webkit-transition: border .25s linear;
+    }
+
+    .check-dots label{
+        display: block;
+        position: relative;
+        font-weight: 300;
+        font-size: 10px;
+        padding: 0px 0px 0px 25px;
+        margin: 10px auto;
+        z-index: 9;
+        cursor: pointer;
+        -webkit-transition: all 0.25s linear;
+    }
+
+
+    .check-dots .check::before {
+        display: block;
+        position: absolute;
+        content: '';
+        border-radius: 100%;
+        height: 3px;
+        width: 3px;
+        top: 5px;
+        left: 5px;
+        margin: auto;
+        transition: background 0.25s linear;
+        -webkit-transition: background 0.25s linear;
+    }
+    .icon-arrow1x:before {
+        right: -16px;
+    }
+    .doc-info {
+        padding-right: 2px;}
+    }

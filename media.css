@@ -3,8 +3,7 @@
     .center-box .small-box .under {
         display: flex;
         justify-content: space-between;
-        margin-top: 17px;
-        padding: 0 34px 14px 22px;
+        padding: 0 34px 14px 19px;
     }
     .icon-arrow1x:before {
         right: -25px;}
@@ -70,7 +69,7 @@
         margin-left: 30px;
     }
     .small-head-box{
-        width: 31%;
+        width: 32%;
         display: flex;}
 
     .photo-user {
@@ -89,7 +88,7 @@
     }
     .forms .telegr {
         position: absolute;
-        right: 22px;
+        right: 19px;
     }
     .icon_search{font-size: 16px;
         position: absolute;
@@ -109,7 +108,7 @@
         font-size: 16pt;
     }
     .doc-info{
-        padding-left: 22px;
+        padding-left: 19px;
     }
     body{position: relative;
         padding: 132px;
@@ -119,7 +118,7 @@
         height: 116px;
     }
     .radios{
-        padding-left: 22px;
+        padding-left: 19px;
     }
 
     .animated{
@@ -139,8 +138,8 @@
     }
     .head-box{
         display: flex;
-        width: 66%;
-        margin-left: 30px;
+        width: 65%;
+        margin-left: 20px;
     }
     input[type=search]{
         width: 45%;
@@ -160,7 +159,7 @@
         margin: 0;
     }
     .small-head-box{
-        width: 31%;
+        width: 32%;
         display: flex;
     }
     .right-head a{
@@ -184,7 +183,7 @@
 
     .right-head .head-ul {
         display: flex;
-        padding-left: 22px;}
+        padding-left: 19px;}
     .center-head a i {
         margin-left: 2px;
     }
@@ -212,7 +211,7 @@
         padding: 0px 50px 50px 50px;
     }
     .center-head{
-        padding: 0px 50px 0px 50px;
+        padding: 0px 70px 0px 55px;
     }
 
     .center-box .telegr img{
@@ -253,8 +252,7 @@
     .center-box .small-box .under {
         display: flex;
         justify-content: space-between;
-        margin-top: 17px;
-        padding: 0 34px 14px 22px;
+        padding: 0 34px 14px 19px;
     }
     .icon-arrow1x:before {
         right: -25px;}
@@ -300,12 +298,12 @@
     }
 
     .icon-box {
-        width: 35px;
-        height: 35px;}
+        width: 25px;
+        height: 25px;}
     .mini-box .forms {
         display: flex;
         border-radius: 0 0 10px 10px;
-        padding: 10px 22px 10px 22px;
+        padding: 10px 19px 10px 19px;
         align-items: center;
     }
     .center-box .mini-box .forms img{
@@ -317,18 +315,18 @@
     }
     .center-box .margin-top-28{
         margin-top: 15px;
-        padding-top: 22px;
+        padding-top: 19px;
     }
     .center-box .block {
         display: flex;
         align-items: center;
-        padding-left: 22px;
+        padding-left: 14px;
     }
     input[type=checkbox] + label{
         margin: 0;
     }
     .icons{
-        right: 22px;
+        right: 19px;
     }
     .mini-box .numbers {
         margin-right: 15px;
@@ -366,7 +364,7 @@
     }
     .forms .telegr{
         position: absolute;
-        right: 22px;
+        right: 19px;
     }
     .forms{
         position: relative;
@@ -375,7 +373,7 @@
         padding-right: 5px;}
 
     .mini-box .forms-radio{
-        padding-left: 22px;
+        padding-left: 19px;
     }
     .mini-box .vote{
         width: 16%;
@@ -479,7 +477,7 @@
         padding: 82px;
     }
     .doc-info{
-        padding-left: 22px;
+        padding-left: 19px;
     }
     .center-box i{
         font-size: 13pt;
@@ -501,13 +499,13 @@ height: 74px;
     }
     .head-box{
         display: flex;
-        width: 66%;
-        margin-left: 30px;
+        width: 65%;
+        margin-left: 20px;
     }
     input[type=search]{
-        width: 40%;
+        width: 39%;
         font-size: 10px;
-        height: 36px;
+        height: 35px;
         padding: 0 0 0 35px ;
     }
     .icon_search {
@@ -534,12 +532,12 @@ height: 74px;
         margin: 0;
     }
     .small-head-box{
-        width: 31%;
+        width: 32%;
         display: flex;
     }
     .right-head a{
         font-size: 11px;
-        margin-right: 26px;
+        margin-right: 10px;
     }
     .right-head a i{
         margin: 0;
@@ -547,9 +545,8 @@ height: 74px;
     .right-head .head-ul {
         border-left: 1px solid #5c5877;
         height: 25px;
-        margin-right: 7%;
-        margin-left: 15%;
-   }
+
+}
     .right-head .head-ul li a{
         margin-right: 5px;
     }
@@ -562,10 +559,9 @@ height: 74px;
     }
     .right-head .head-ul {
         display: flex;
-        padding-left: 10px;
-        margin-left: 15%;
-
-        margin-right: 7%}
+        padding-left: 30px;
+        margin-left: 20%;
+        margin-right: 11%;}
     .center-head a i {
         margin-left: 9px;
         font-size: 14px;
@@ -602,11 +598,11 @@ height: 74px;
         width: 86%;
     }
     .center-box{
-        padding: 0px 50px 50px 50px;
+        padding: 0px 70px 50px 55px;
         font-size: 10px;
     }
     .center-head{
-        padding: 0px 50px 0px 50px;
+        padding: 0px 70px 0px 55px;
     }
     .center-box-head {
         font-size: 12pt;
@@ -655,8 +651,7 @@ height: 74px;
     .center-box .small-box .under {
         display: flex;
         justify-content: space-between;
-        margin-top: 17px;
-        padding: 0 22px 14px 22px;
+        padding: 19px 14px 19px;
     }
     .list-box .list-box-content:last-child{
         margin-bottom: 0;
@@ -665,7 +660,7 @@ height: 74px;
         margin-top: 25px;
     }
     .pie-chart-ul {
-    margin-top: 50px;
+    margin-top: 31px;
         margin-bottom: 1px;
     }
     .list-box h3 {
@@ -736,7 +731,7 @@ height: 74px;
     .mini-box .forms {
         display: flex;
         border-radius: 0 0 10px 10px;
-        padding: 5px 22px 5px 22px;
+        padding: 5px 19px 5px 19px;
         align-items: center;
     }
     .center-box .mini-box .forms img{
@@ -753,13 +748,13 @@ height: 74px;
         display: flex;
         align-items: center;
         padding-bottom: 15px;
-        padding-left: 22px;
+        padding-left: 14px;
     }
     input[type=checkbox] + label{
         margin: 0;
     }
     .icons{
-        right: 22px;
+        right: 19px;
     }
     .mini-box .numbers {
     margin-right: 15px;
@@ -798,7 +793,7 @@ height: 74px;
     }
     .forms .telegr{
        position: absolute;
-        right: 22px;
+        right: 19px;
     }
     .forms{
         position: relative;
@@ -806,10 +801,10 @@ height: 74px;
     .forms .likes i {
         font-size: 13px;}
     .radios{
-        display: flex; align-items: center; padding-right: 22px;padding-left: 22px;
+        display: flex; align-items: center; padding-right: 14px;padding-left: 14px;
     }
     .mini-box .forms-radio{
-        padding-left: 22px;
+        padding-left: 19px;
     }
     .mini-box .vote{
         width: 16%;
@@ -833,7 +828,7 @@ height: 74px;
         margin-top: 0;
     }
 .animated .left-dots {
-    margin-top: 20px;
+    margin-top: 24px;
 
 }
 .animated li ul {
@@ -844,7 +839,7 @@ height: 74px;
     }
 
     .center-box .mini-box{
-        padding-top: 22px;
+        padding-top: 14px;
 
     }
     .radio__input {
@@ -865,7 +860,7 @@ height: 74px;
         margin-top: 15px;
     }
     .mini-box .forms-radio{
-        padding: 0px 22px 0px 22px;
+        padding: 0px 19px 0px 19px;
         margin-top: 13px;
         height: auto;
     }
@@ -939,3 +934,13 @@ height: 74px;
     .doc-info {
         padding-right: 2px;}
     }
+
+@media (max-width: 1600px){
+    .right-head .head-ul {
+        display: flex;
+        padding-left: 30px;
+        margin-left: 5%;
+        margin-right: 11%;
+    }
+
+}

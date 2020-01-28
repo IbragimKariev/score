@@ -536,7 +536,7 @@ input::-webkit-input-placeholder {
 
 .center-head .head-ul {
     display: flex;
-    padding-left: 10px;
+    padding-left: 15px;
     border-left: 1px solid #5c5877;
     height: 17px;
     margin-left: 22px;
@@ -736,7 +736,7 @@ input::-webkit-input-placeholder {
 }
 
 .center-box .small-box {
-    width: 31%;
+    width: 32%;
     display: flex;
     flex-direction: column;
 }
@@ -860,7 +860,6 @@ canvas {
 .center-box .small-box .under {
     display: flex;
     justify-content: space-between;
-    margin-top: 22px;
     padding: 0 25px 32px 25px;
 }
 
@@ -884,17 +883,17 @@ canvas {
     color: #a7a7af;
     font-size: 19pt;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     width: 100%;
     align-items: center;
-    margin-top: 18px;
+    margin-top: 26px;
     position: relative;
 }
 
 .center-box .big-box {
-    width: 66%;
-    margin-left: 30px;
+    width: 65%;
+    margin-left: 24px;
 }
 
 .center-box .mini-box img {
@@ -1387,7 +1386,7 @@ position: absolute;
     display: flex;
     position: absolute;
     right: 36px;
-    top: 0;
+    top: 4px;
 }
 
 .icons i {
@@ -1412,7 +1411,7 @@ position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 
